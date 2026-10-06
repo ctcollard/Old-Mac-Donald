@@ -7,6 +7,16 @@ public class TestFarm {
     // using the object, print out the type + " goes " + sound
     type = myCow.getType();
     sound = myCow.getSound();
-    System.out.println(type + " goes " + sound);
+    System.out.println("The " + type + " goes " + sound);
+
+    Pig myPig = new Pig();
+    type = myPig.getType();
+    sound = myPig.getSound();
+    System.out.println("The " + type + " goes " + sound);
+
+    Chick myChick = new Chick();
+    type = myChick.getType();
+    sound = myChick.getSound();
+    System.out.println("The " + type + " goes " + sound);
  }
 }
