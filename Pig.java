@@ -1,9 +1,17 @@
+//package Old-Mac-Donald;
+
 public class Pig implements Animal {
-    public void getSound() {
-        System.out.println("Oink");
+    
+     public Pig(String type, String sound) {
+        type = "pig";
+        sound = "oink";
     }
 
-    public void getType() {
-        System.out.println("Pig");
+    public String getSound() {
+        return "oink";
+    }
+
+    public String getType() {
+        return "pig";
     }
 }
