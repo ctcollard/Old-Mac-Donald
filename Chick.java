@@ -1,3 +1,11 @@
+/*
+* Title of Class: Chick
+* Author's Name: Charlotte Collard
+* Purpose: To create a chick class that can return either the sound "cheep" or the sound "cluck"
+*
+* Resources: Mrs. Ramsey-Rutledge :)
+*
+*/
 //package Old-Mac-Donald;
 
 public class Chick implements Animal {

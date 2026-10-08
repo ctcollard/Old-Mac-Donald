@@ -1,3 +1,11 @@
+/*
+* Title of Class: Cow
+* Author's Name: Charlotte Collard
+* Purpose: To create a cow class that returns the sound "moo"
+*
+* Resources: Mrs. Ramsey-Rutledge :)
+*
+*/
 //package Old-Mac-Donald;
 
 public class Cow implements Animal {
