@@ -9,17 +9,19 @@
 //package Old-Mac-Donald;
 
 public class Pig implements Animal {
+    private String type;
+    private String sound;
     
      public Pig(String type, String sound) {
-        type = "pig";
-        sound = "oink";
+        this.type = type;
+        this.sound = sound;
     }
 
     public String getSound() {
-        return "oink";
+        return sound;
     }
 
     public String getType() {
-        return "pig";
+        return type;
     }
 }

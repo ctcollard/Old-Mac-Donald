@@ -9,10 +9,12 @@
 //package Old-Mac-Donald;
 
 public class Chick implements Animal {
+    private String type;
+    private String sound;
     
      public Chick(String type, String sound) {
-        type = "chick";
-        sound = "cluck";
+        this.type = type;
+        this.sound = sound;
     }
 
     public String getSound() {
@@ -25,10 +27,10 @@ public class Chick implements Animal {
         if (randomNum == 1) {
 	        return "cluck";
         }
-        return "cluck";
+        return sound;
     }
 
     public String getType() {
-        return "chick";
+        return type;
     }
 }
